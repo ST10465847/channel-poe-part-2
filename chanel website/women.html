@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanel | Women</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  
+  <header>
+    <h1>CHANEL</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="women.html" class="active">Women</a></li>
+        <li><a href="men.html">Men</a></li>
+        <li><a href="fragrances-beauty.html">Fragrances & Beauty</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="cart-btn">👜 Cart</button></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <img src="images/hero women hero.jpg" alt="Women’s Collection Banner" class="hero-img">
+    <div class="hero-text">
+      <h2>Elegant Women’s Collection</h2>
+      <p>Luxury and sophistication for every occasion.</p>
+    </div>
+  </section>
+
+
+  <section class="collection">
+    <h2 id="main-heading">Women’s Collection</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/women outfit 1.jpg" alt="Luxury Roman">
+        <p>Luxury Dress</p>
+        <p class="price">R12,000</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/women outfit 2.jpg" alt="Handbag">
+        <p>Handbag</p>
+        <p class="price">R8,500</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/women outfit 3.jpg" alt="bubble Suit">
+        <p>Accessories</p>
+        <p class="price">R3,200</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/women outfit 4.jpg" alt="Evening Gown">
+        <p>Evening Gown</p>
+        <p class="price">R15,500</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/women outfit 5.jpg" alt="Chic Coat">
+        <p>Chic Coat</p>
+        <p class="price">R10,800</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  </div>
+
+  
+  <footer>
+    <p>&copy; 2025 Chanel. Luxury Women’s Collection.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

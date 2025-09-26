@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanel | Fragrances & Beauty</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>CHANEL</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="men.html">Men</a></li>
+        <li><a href="fragrances-beauty.html" class="active">Fragrances & Beauty</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="cart-btn">👜 Cart</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/fragrance hero.jpg" alt="Fragrances & Beauty Banner" class="hero-img">
+    <div class="hero-text">
+      <h2>Fragrances & Beauty</h2>
+      <p>Exclusive scents and luxurious beauty essentials.</p>
+    </div>
+  </section>
+
+  <!-- Beauty Collection Cards -->
+<section class="collection">
+  <h2 id="main-heading">Beauty Collection</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="images/products fragrance1..jpg" alt="Aurum Essence">
+      <p>Aurum Essence</p>
+      <p class="price">R4,500</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="images/fragrance2.jpg" alt="Maison de Parfum">
+      <p>Maison de Parfum</p>
+      <p class="price">R2,800</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="images/products fragrance3.jpg" alt="Elysian Glow">
+      <p>Elysian Glow</p>
+      <p class="price">R6,200</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="images/products collection3.jpg" alt="Velvet Noir">
+      <p>Velvet Noir</p>
+      <p class="price">R5,100</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="images/products fragrance 4.jpg" alt="Opal & Oud">
+      <p>Opal & Oud</p>
+      <p class="price">R7,300</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Chanel. Fragrances & Beauty.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
